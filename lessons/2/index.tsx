@@ -5,7 +5,7 @@ interface ButtonProps {
   primary?: boolean;
 }
 
-const Button = styled.button`
+export const Button = styled.button`
   // Цвет зависит от наличия пропса "primary"
   background: ${(props: ButtonProps): string =>
     props.primary ? 'palevioletred' : 'white'};
@@ -20,6 +20,7 @@ const Button = styled.button`
 
 const Container: FC = () => (
   <div>
+    <h2>Lesson 2</h2>
     <Button>Normal</Button>
     <Button primary>Primary</Button>
   </div>
