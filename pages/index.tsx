@@ -16,6 +16,7 @@ export default function Home() {
       <Less5 />
       <Less6 />
       <Less7 />
+      <Less8 />
     </>
   );
 }
