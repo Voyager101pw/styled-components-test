@@ -9,8 +9,12 @@ const TomatoButton = styled(Button)`
   border-color: tomato; // << добавляя еще стили
 `;
 
+interface PropTypes {
+  children: string;
+}
+
 // 2) Компоент для подмены реализации props.children
-const ReversedButton: FC<PropsWithChildren> = (props) => (
+const ReversedButton: FC<PropTypes> = (props) => (
   <Button {...props} children={props.children.split('').reverse()} />
 );
 
