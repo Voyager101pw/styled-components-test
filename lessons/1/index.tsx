@@ -14,10 +14,10 @@ const Wrapper = styled.section`
 
 const HelloWorld: FC = () => (
   <>
-  <h2>Lesson 1</h2>
-  <Wrapper>
-    <Title>Hello World!</Title>
-  </Wrapper>
+    <h2>Lesson 1</h2>
+    <Wrapper>
+      <Title>Hello World!</Title>
+    </Wrapper>
   </>
 );
 
