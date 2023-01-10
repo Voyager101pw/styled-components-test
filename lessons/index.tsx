@@ -1,8 +1,10 @@
-export { default as Less1 } from './1';
-export { default as Less2 } from './2';
-export { default as Less3 } from './3';
-export { default as Less4 } from './4';
-export { default as Less5 } from './5';
-export { default as Less6 } from './6';
-export { default as Less7 } from './7';
-export { default as Less8 } from './8';
+export { default as BasicLess1 } from './basic/1';
+export { default as BasicLess2 } from './basic/2';
+export { default as BasicLess3 } from './basic/3';
+export { default as BasicLess4 } from './basic/4';
+export { default as BasicLess5 } from './basic/5';
+export { default as BasicLess6 } from './basic/6';
+export { default as BasicLess7 } from './basic/7';
+export { default as BasicLess8 } from './basic/8';
+
+export { default as AdvancedLess1 } from './advanced/1';
