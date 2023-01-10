@@ -1,15 +1,15 @@
 import { FC, PropsWithChildren } from 'react';
 import styled from 'styled-components';
 
-interface ButtonProps {
+interface PropTypes {
   primary?: boolean;
 }
 
-export const Button = styled.button`
+export const Button = styled.button<PropTypes>`
   // Цвет зависит от наличия пропса "primary"
-  background: ${(props: ButtonProps): string =>
+  background: ${(props): string =>
     props.primary ? 'palevioletred' : 'white'};
-  color: ${(props: ButtonProps) => (props.primary ? 'white' : 'palevioletred')};
+  color: ${(props) => (props.primary ? 'white' : 'palevioletred')};
 
   font-size: 1em;
   margin: 1em;
