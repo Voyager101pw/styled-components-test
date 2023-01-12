@@ -18,6 +18,7 @@ const theme = {
 
 const Container: FC = () => (
   <>
+    <p>{`Передача темы обход <ThemeContext theme={...}> при помощи пропса theme у компонента <Button theme={...}>`}</p>
     <Button theme={{ main: 'royalblue' }}>Ad hoc theme</Button>
     <ThemeProvider theme={theme}>
       <Button>Themed</Button>
