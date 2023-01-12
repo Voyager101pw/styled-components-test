@@ -7,5 +7,6 @@ export { default as Basic6 } from './basic/6';
 export { default as Basic7 } from './basic/7';
 export { default as Basic8 } from './basic/8';
 
-export { default as Advance1 } from './advanced/1';
-export { default as Advance2 } from './advanced/2';
+export { default as Advanced1 } from './advanced/1';
+export { default as Advanced2 } from './advanced/2';
+export { default as Advanced4 } from './advanced/4';
